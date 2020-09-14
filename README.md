@@ -11,7 +11,7 @@ In time, I hope to make this more verbose, but for now, I will leave out some of
  - Familiarity with referencing NuGet packages in either Visual Studio or using the .NET Core CLI
  - .NET Core SDK >=3.1 and < .NET 5 (I have not tested this on the .NET 5 preview version)
  - Familiarity with cloning or downloading a GitHub repository, creating a new Blazor WASM solution, or an existing Blazor WASM solution
- - Recommended to use Visual Studio 2019 Community, but this will work with VS Code, or 
+ - Recommended to use Visual Studio 2019 Community, but this will work with VS Code
 
 ## Getting Started
 There are many ways to get started with Blazor. If you are unfamiliar with creating a new .NET Blazor solution, I recommend you visit the [Blazor Home Page](https://blazor.net) to get started with understanding what Blazor is and how to get started.  The solution in this repository is the scaffolded code from using Visual Studio 2019 Community Edition and the latest LTS version of the .NET Core (3.1.402 at the time I created the solution). If you follow the getting started tutorial on the [Blazor Home Page](https://blazor.net), you will create a new Blazor Server application using the .NET Core CLI. The steps described below for connecting to CosmosDB should be the same.
