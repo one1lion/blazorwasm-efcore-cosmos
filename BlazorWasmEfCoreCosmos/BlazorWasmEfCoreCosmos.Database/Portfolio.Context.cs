@@ -36,6 +36,10 @@ namespace BlazorWasmEfCoreCosmos.Database {
     /// Initialize a new PortfolioContext
     /// </summary>
     /// <param name="options">The settings for the database connection</param>
+    /// <remarks>
+    /// This is used when registering the DbContext for the application in the 
+    /// application's Startup.cs file (or Program.cs if not using a Startup.cs)
+    /// </remarks>
     public PortfolioContext(DbContextOptions<PortfolioContext> options)
       : base(options) { }
     #endregion

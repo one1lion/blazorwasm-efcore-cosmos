@@ -10,7 +10,7 @@ namespace BlazorWasmEfCoreCosmos.Models {
   /// This model specifies the shape of the data to be stored as
   /// a Project document in the Portfolio collection.
   /// </remarks>
-  public class Project {
+  public partial class Project {
     public Guid Id { get; set; }
     public string Name { get; set; }
     public string Description { get; set; }
