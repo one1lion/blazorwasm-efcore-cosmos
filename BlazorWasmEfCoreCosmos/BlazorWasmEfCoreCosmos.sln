@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmEfCoreCosmos.Clie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmEfCoreCosmos.Shared", "BlazorWasmEfCoreCosmos\Shared\BlazorWasmEfCoreCosmos.Shared.csproj", "{A820AA45-0AAF-4C19-8C12-413D066E6D09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmEfCoreCosmos.Database", "BlazorWasmEfCoreCosmos.Database\BlazorWasmEfCoreCosmos.Database.csproj", "{8CE9AA03-4398-493D-A099-0F0984EA77A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmEfCoreCosmos.Models", "BlazorWasmEfCoreCosmos.Models\BlazorWasmEfCoreCosmos.Models.csproj", "{7C62E65F-D83C-4EB5-8BCC-74AA7D24B080}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{A820AA45-0AAF-4C19-8C12-413D066E6D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A820AA45-0AAF-4C19-8C12-413D066E6D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A820AA45-0AAF-4C19-8C12-413D066E6D09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CE9AA03-4398-493D-A099-0F0984EA77A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE9AA03-4398-493D-A099-0F0984EA77A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CE9AA03-4398-493D-A099-0F0984EA77A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CE9AA03-4398-493D-A099-0F0984EA77A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C62E65F-D83C-4EB5-8BCC-74AA7D24B080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C62E65F-D83C-4EB5-8BCC-74AA7D24B080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C62E65F-D83C-4EB5-8BCC-74AA7D24B080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C62E65F-D83C-4EB5-8BCC-74AA7D24B080}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
